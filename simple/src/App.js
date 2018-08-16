@@ -29,7 +29,6 @@ class App extends Component {
   }
 
   // fetch products from localStorage using componentWillMount
-  // Retrieve the data in JavaScript version using JSON.parse
   componentWillMount(){
     const products = this.getProducts();
     this.setState({products});
